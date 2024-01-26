@@ -11,7 +11,7 @@
 .granContenedor{
     width: 100%;
     background-color: white;
-    border-radius: 40px 40px 0px 0px;
+    border-radius: 40px;
 }
 .contenedorimg{
     display: flex;
@@ -47,9 +47,7 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20px;
+  padding: 20px
 }
 
 .title3 {
@@ -69,10 +67,9 @@
 .info {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-column-gap: 51px;
-  grid-row-gap: 13px;
+  grid-column-gap: -10px;
+  grid-row-gap: 10px;
   padding-top: 15px;
-  
 }
 .info2{
     color: #676767;

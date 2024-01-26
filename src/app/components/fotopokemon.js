@@ -16,7 +16,7 @@ function FotoPokemon(){
     const [defense, setDefense] = useState("esperando");
     const [speed, setSpeed] = useState("esperando");
 
-    const url="https://pokeapi.co/api/v2/pokemon/70";
+    const url="https://pokeapi.co/api/v2/pokemon/5";
     useEffect(()=>{
         fetch(url)//haz el get
         .then(res=>res.json())//recupera 
