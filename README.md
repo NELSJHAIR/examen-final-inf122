@@ -19,16 +19,16 @@ Estás postulando para un puesto de desarrollador **Front-end** en una empresa q
 |  `70`|
 
 #### Documentación de la API de Pokemon:
-`GET https://pokeapi.co/api/v2/pokemon/{id o nombre de pokemon}`
+`GET https://pokeapi.co/api/v2/pokemon/70`
 
 ##### Pokemon (Tipo)
 
 |Nombre|Descripción|Tipo|
 |------|-----------|----|
-|id|El identificador del Pokemon|Entero|
-|name|El nombre del Pokemon|Cadena|
-|height|La altura del Pokemon en decímetros (dm)|Entero|
-|weight|El peso del Pokemon en hectogramos (hg)|Entero|
+|id|Setenta|Entero|
+|name|weepinbell|Cadena|
+|height|10 |Entero|
+|weight|64|Entero|
 |abilities|Lista de habilidades potenciales que el Pokemon puede tener|Lista PokemonAbility|
 |sprites|Conjunto de imágenes usadas para representar al Pokemon|PokemonSprites|
 |stats|Una lista de estadísticas base para este Pokemon|Lista PokemonStat|
